@@ -1,5 +1,6 @@
 #!/bin/bash
-ROOT_FOLDER=${PRU_ROOT}/drake/bin
+CURR_FOLDER=${PWD}
+ROOT_FOLDER=${CURR_FOLDER}/bin
 PLUGIN_FOLDER=${ROOT_FOLDER}/drake_plugins
 VISUALIZER=${ROOT_FOLDER}/drake-visualizer
 SHOW_FRAME=${PLUGIN_FOLDER}/show_frame.py
